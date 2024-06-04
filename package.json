@@ -1,6 +1,7 @@
 {
   "name": "mr.yu-ysthree",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": "于舒爱",
   "description": "multifunctional library",
   "type": "module",
   "main": "ysthree.js",
@@ -9,12 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuxiaoshuai/ysthree.js.git"
+    "url": "https://github.com/yuxiaoshuai/ysthree.js.git"
   },
-  "author": "于舒爱",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yuxiaoshuai/ysthree.js/issues"
   },
-  "homepage": "https://github.com/yuxiaoshuai/ysthree.js#readme"
+  "homepage": "https://github.com/yuxiaoshuai/ysthree.js#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
