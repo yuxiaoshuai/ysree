@@ -2,6 +2,7 @@
   "name": "ysthree",
   "version": "0.0.1",
   "description": "multifunctional library",
+  "type": "module",
   "main": "ysthree.js",
   "scripts": {
     "test": "test"

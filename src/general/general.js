@@ -1,7 +1,7 @@
 
 // 普通工具
 
-class util1 {
+class Util1 {
   constructor(name_ = null) {
     this.name = name_;
 
@@ -10,11 +10,11 @@ class util1 {
 
   logName() {
     if(!this.name) {
-      console.log('您没有传递参数');
-      return
+      return '您没有传递参数';
     }
-    console.log(this.name);
+    
+    return `您传入了${this.name}`;
   }
 }
 
-export { util1 };
+export { Util1 };
