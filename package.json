@@ -1,22 +1,22 @@
 {
-  "name": "mr.yu-ysthree",
+  "name": "ysree",
   "version": "0.0.4",
   "author": "于舒爱",
   "description": "multifunctional library",
   "type": "module",
-  "main": "ysthree.js",
+  "main": "ysree.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuxiaoshuai/ysthree.js.git"
+    "url": "https://github.com/yuxiaoshuai/ysree.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuxiaoshuai/ysthree.js/issues"
+    "url": "https://github.com/yuxiaoshuai/ysree/issues"
   },
-  "homepage": "https://github.com/yuxiaoshuai/ysthree.js#readme",
+  "homepage": "https://github.com/yuxiaoshuai/ysree#readme",
   "dependencies": {},
   "devDependencies": {}
 }
