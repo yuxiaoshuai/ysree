@@ -1,6 +1,6 @@
 {
   "name": "ysree",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "于舒爱",
   "description": "multifunctional library",
   "type": "module",
@@ -12,6 +12,14 @@
     "type": "git",
     "url": "https://github.com/yuxiaoshuai/ysree.git"
   },
+  "keywords": [
+    "ys",
+    "ysree",
+    "YSREE",
+    "yushuai",
+    "ysree.js",
+    "YSREE.js"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yuxiaoshuai/ysree/issues"
