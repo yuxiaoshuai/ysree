@@ -1,20 +1,38 @@
 
+import { Day } from './day.js';
 // 普通工具
 
-class Util1 {
-  constructor(name_ = null) {
-    this.name = name_;
+class Util1 extends Day {
 
-    this.logName();
-  }
-
-  logName() {
-    if(!this.name) {
-      return '您没有传递参数';
-    }
+  constructor(_name = null) {
     
-    return `您传入了${this.name}`;
+    super('day');
+
+    this.util1Name = _name;
+    this.util1Attribute = 'util1自定义属性值';
+
+    this.dayPrintInfo();
+
+    this.util1PrintInfo();
+
   }
+
+  // Util1类 - 打印函数
+  util1PrintInfo(_print_info) {
+
+    return `调用子类打印方法——${this.util1Name}`;
+
+  }
+
+  // Util1类 - 获取父类<插槽函数>
+  getDaySlot() {
+
+    return 'run...';
+
+    // super.daySlot();
+
+  }
+
 }
 
 export { Util1 };
