@@ -1,6 +1,6 @@
 {
   "name": "ysree",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "于舒爱",
   "description": "multifunctional library",
   "type": "module",
@@ -25,6 +25,7 @@
     "url": "https://github.com/yuxiaoshuai/ysree/issues"
   },
   "homepage": "https://github.com/yuxiaoshuai/ysree#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "dayjs": "^1.11.11"
+  }
 }
